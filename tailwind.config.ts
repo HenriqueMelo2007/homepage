@@ -12,6 +12,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      height: {
+        divH: "500px"
+      },
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        seaweed: ['var(--font-seaweed-script)', 'cursive'],
+      },
     },
   },
   plugins: [],
